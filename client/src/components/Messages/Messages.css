@@ -1,0 +1,13 @@
+.messages {
+    padding: 5% 0;
+    overflow: auto;
+    flex: auto;
+  }
+
+  .messagesContainer {
+    height: 100%; 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+  
