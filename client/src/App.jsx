@@ -5,7 +5,7 @@ import Chat from "./components/Chat/Chat";
 
 const App = () => (
     <Router>
-        <Routes>
+        <Routes basename="/chat-room-react-node.js">
             <Route path="/" element={<Join />} />
             <Route path="/chat" element={<Chat />} />
         </Routes>
